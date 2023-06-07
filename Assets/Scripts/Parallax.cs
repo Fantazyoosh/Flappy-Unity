@@ -10,7 +10,7 @@ public class Parallax : MonoBehaviour
 {
 private MeshRenderer meshRenderer;
 //[SerializeField]
-public float animationSpeed = 0.05f;
+public float animationSpeed = 0.2f;
 
     private void Awake() {
     meshRenderer = GetComponent<MeshRenderer>();
@@ -20,3 +20,7 @@ public float animationSpeed = 0.05f;
     }
 
 }
+
+
+
+//pips 0.2*24 times faster 
