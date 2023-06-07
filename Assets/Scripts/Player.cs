@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
 
     public Sprite[] sprites;
     public int spriteIndex;
-    public float gravity = -9.8f;
+    public float gravity = -12f; //change from -9.8f to 12f
     public float strength = 5f;
     
     private void Awake()
