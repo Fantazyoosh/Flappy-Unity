@@ -74,5 +74,5 @@ crashlytics-build.properties
 #Custom
 .vscode/
 .git/
-.vscode
+.vsconfig
 .DS_Store
